@@ -13,7 +13,10 @@ config
     .addDocumentsDir('docs')
     .addDocumentsDir({
         src: 'guide',
-        dest: 'guide'
+        dest: 'guide',
+        baseMetadata: {
+            bookHomeURL: "/guide/index.html"
+        }
     })
     .addPartialsDir('partials');
 
@@ -61,3 +64,17 @@ config.plugin('akashacms-blog-podcast')
             path: /^blog\//
         }
     });
+
+config.setMahabhutaConfig({
+    recognizeSelfClosing: true,
+    recognizeCDATA: true
+});
+
+config.plugin("akashacms-tagged-content")
+    .sortBy('title')
+    .headerTemplate("---\ntitle: @title@\nlayout: tagpage.html.ejs\n---\n<p>Pages with tag @tagName@</p>")
+    .tagsDirectory('/tags/');
+    
+config.prepare();
+module.exports = config;
+    
