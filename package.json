@@ -9,32 +9,32 @@
   "scripts": {
     "prebuild": "akasharender copy-assets config.js",
     "build": "akasharender render config.js",
-    "preview": "cd out && ../node_modules/.bin/hostr"
+    "preview": "cd out && ws --log.format dev"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robogeek/open-source-site.git"
+    "url": "git+https://github.com/akashacms/open-source-site.git"
   },
   "author": "David Herron <david@davidherron.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/robogeek/open-source-site/issues"
+    "url": "https://github.com/akashacms/open-source-site/issues"
   },
-  "homepage": "https://github.com/robogeek/open-source-site#readme",
+  "homepage": "https://github.com/akashacms/open-source-site#readme",
   "dependencies": {
-    "akashacms-base": "^0.7.0",
+    "akashacms-base": "^0.7.5",
     "akashacms-blog-podcast": "^0.7.2",
-    "akashacms-booknav": "^0.7.0",
+    "akashacms-booknav": "^0.7.1",
     "akashacms-breadcrumbs": "^0.7.0",
+    "akashacms-dlassets": "github:akashacms/akashacms-dlassets",
     "akashacms-external-links": "^0.6.6",
     "akashacms-footnotes": "^0.7.0",
-    "akashacms-tagged-content": "^0.7.0",
+    "akashacms-tagged-content": "^0.7.1",
     "akashacms-theme-bootstrap": "^0.7.0",
-    "akashacms-dlassets": "github:akashacms/akashacms-dlassets",
-    "akasharender": "^0.7.0",
-    "bootstrap": "^4.3.1",
+    "akasharender": "^0.7.2",
     "epub-website": "akashacms/epub-website",
-    "hostr": "^2.3.7",
+    "local-web-server": "^3.0.7",
+    "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0"
   }
