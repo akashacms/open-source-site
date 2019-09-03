@@ -1,5 +1,4 @@
 ---
-title: Partials
+title: Partial templates in Farblefritzer Pro
 layout: ebook-page.html.ejs
-# bookHomeURL: '/toc.html'
 ---

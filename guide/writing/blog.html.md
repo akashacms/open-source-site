@@ -1,7 +1,6 @@
 ---
-title: Blog posts
+title: Blog posts with Farblefritzero Pro
 layout: ebook-page.html.ejs
-# bookHomeURL: '/toc.html'
 ---
 
 What is it

@@ -1,7 +1,6 @@
 ---
-title: Layout and Theming
+title: Layout and Theming with Farblefritzer Pro
 layout: ebook-page.html.ejs
-# bookHomeURL: '/toc.html'
 ---
 
 Rendering

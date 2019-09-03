@@ -1,7 +1,6 @@
 ---
-title: Deployment to website
+title: Deployment to website using Farblefritzer Pro
 layout: ebook-page.html.ejs
-# bookHomeURL: '/toc.html'
 ---
 
 Rendering

@@ -1,7 +1,6 @@
 ---
-title: Deployment to Github Pages
+title: Deployment to Github Pages with Farblefritzer Pro
 layout: ebook-page.html.ejs
-# bookHomeURL: '/toc.html'
 ---
 
 Rendering for Pages
