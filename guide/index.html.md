@@ -2,14 +2,6 @@
 layout: ebook-toc-page.html.ejs
 title: Table of Contents
 tags: AkashaRender
-headerHeight: "140px"
-bookTitle: "AkashaRender User Guide"
-bookAuthor: "David Herron"
-authors: "David Herron"
-published: "2019 David Herron"
-language: "English"
-coverImage: "/Human-Skeleton.jpg"
-noLogoImage: "true"
 ---
 
 <nav epub:type="toc" id="toc">

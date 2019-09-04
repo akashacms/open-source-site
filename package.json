@@ -2,10 +2,6 @@
   "name": "open-source-site",
   "version": "0.7.0",
   "description": "Open source project website with blog and documentation e-Book",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "prebuild": "akasharender copy-assets config.js",
     "build": "akasharender render config.js",
@@ -23,16 +19,16 @@
   "homepage": "https://github.com/akashacms/open-source-site#readme",
   "dependencies": {
     "akashacms-base": "^0.7.5",
-    "akashacms-blog-podcast": "^0.7.2",
+    "akashacms-blog-podcast": "^0.7.3",
     "akashacms-booknav": "^0.7.1",
     "akashacms-breadcrumbs": "^0.7.0",
-    "akashacms-dlassets": "github:akashacms/akashacms-dlassets",
     "akashacms-external-links": "^0.6.6",
     "akashacms-footnotes": "^0.7.0",
     "akashacms-tagged-content": "^0.7.1",
     "akashacms-theme-bootstrap": "^0.7.0",
     "akasharender": "^0.7.2",
     "epub-website": "akashacms/epub-website",
+    "@fortawesome/fontawesome-free": "^5.7.2",
     "local-web-server": "^3.0.7",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",

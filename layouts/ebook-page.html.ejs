@@ -29,13 +29,13 @@
 
     <ebook-page-header id="ebook-masthead" header-height="60px"></ebook-page-header>
     <div class="panel panel-default">
-        <ebook-navigation-header showtoc="false" id="ebook-navigation" class="panel-heading"></ebook-navigation-header>
+        <ebook-navigation-header showtoc="true" id="ebook-navigation" class="panel-heading"></ebook-navigation-header>
         <div id="book-page-content" class="panel-body">
             <% if (typeof teaser  !== "undefined") {
                  %><div class="jumbotron"><p class="lead"><%= teaser %></p></div> <%
             } %>
             <div id="book-page-content" class="panel-body"><%- content %></div>
-            <ebook-navigation-header showtoc="false" id="ebook-navigation-bottom" class="panel-heading"></ebook-navigation-header>
+            <ebook-navigation-header showtoc="true" id="ebook-navigation-bottom" class="panel-heading"></ebook-navigation-header>
         </div>
     </div>
     <footer id="footer-row" class="container">
