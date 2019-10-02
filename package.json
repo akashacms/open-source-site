@@ -25,7 +25,7 @@
     "akashacms-external-links": "^0.6.6",
     "akashacms-footnotes": "^0.7.0",
     "akashacms-tagged-content": "^0.7.1",
-    "akashacms-theme-bootstrap": "^0.7.0",
+    "@akashacms/theme-bootstrap": "^0.7.x",
     "akasharender": "^0.7.2",
     "epub-website": "akashacms/epub-website",
     "@fortawesome/fontawesome-free": "^5.7.2",

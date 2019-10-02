@@ -57,7 +57,7 @@ config
 
 
 config
-    .use(require('akashacms-theme-bootstrap'))
+    .use(require('@akashacms/theme-bootstrap'))
     .use(require('akashacms-base'), {
         generateSitemapFlag: true
     })
