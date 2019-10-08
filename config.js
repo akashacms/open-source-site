@@ -61,7 +61,7 @@ config
     .use(require('@akashacms/plugins-base'), {
         generateSitemapFlag: true
     })
-    .use(require('akashacms-breadcrumbs'))
+    .use(require('@akashacms/plugins-breadcrumbs'))
     .use(require('@akashacms/plugins-booknav'))
     .use(require('akashacms-external-links'))
     .use(require('akashacms-footnotes'))
