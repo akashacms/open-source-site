@@ -25,7 +25,7 @@
     "@akashacms/plugins-booknav": "^0.7.x",
     "@akashacms/plugins-breadcrumbs": "^0.7.x",
     "akashacms-external-links": "^0.6.6",
-    "akashacms-footnotes": "^0.7.x",
+    "@akashacms/plugins-footnotes": "^0.7.x",
     "akasharender": "^0.7.x",
     "epub-website": "akashacms/epub-website",
     "@fortawesome/fontawesome-free": "^5.7.2",

@@ -64,7 +64,7 @@ config
     .use(require('@akashacms/plugins-breadcrumbs'))
     .use(require('@akashacms/plugins-booknav'))
     .use(require('akashacms-external-links'))
-    .use(require('akashacms-footnotes'))
+    .use(require('@akashacms/plugins-footnotes'))
     .use(require('@akashacms/plugins-tagged-content'), {
         sortBy: 'title',
         // @tagDescription@ can only appear once
