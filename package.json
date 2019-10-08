@@ -22,7 +22,7 @@
     "@akashacms/theme-bootstrap": "^0.7.x",
     "@akashacms/plugins-tagged-content": "^0.7.x",
     "akashacms-blog-podcast": "^0.7.x",
-    "akashacms-booknav": "^0.7.x",
+    "@akashacms/plugins-booknav": "^0.7.x",
     "akashacms-breadcrumbs": "^0.7.x",
     "akashacms-external-links": "^0.6.6",
     "akashacms-footnotes": "^0.7.x",
