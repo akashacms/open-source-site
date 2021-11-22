@@ -1,0 +1,403 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<title>Example Open Source Software Web Site</title>
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="pagename" content="Example Open Source Software Web Site">
+
+
+
+
+
+
+
+
+
+<meta name="date" content="2019-12-18T07:00:08.673Z">
+
+<meta name="DC.title" content="Example Open Source Software Web Site">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- OpenGraph Meta Tags -->
+
+<meta name="og:title" content="Example Open Source Software Web Site">
+
+<meta name="og:url" content="https://example.akashacms.com/index.html">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://example.akashacms.com/index.html">
+
+<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+
+
+<link rel="stylesheet" type="text/css" href="akasha/epub-website/style.css"><link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="css/flatly.min.css"><link rel="stylesheet" type="text/css" href="css/style.css"><link rel="stylesheet" type="text/css" href="vendor/fontawesome-free/css/all.min.css">
+
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" munged="yes"><i class="fas fa-home"></i>Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="guide/index.html" munged="yes">Documentation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog/index.html" munged="yes">News</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<div class="container" role="main">
+<div class="row">
+<header class="col-md-12">
+<div class="row">
+<span class="col-md-8" style="text-align: center;">
+<a href="index.html" munged="yes"><img src="images/project-logo.jpg" width="150px" align="left"></a>
+<h1 align="center">Example Open Source Software Web Site</h1>
+</span>
+<span class="col-md-4">
+<form method="get" id="ddgSearch" action="https://duckduckgo.com/">
+<input type="hidden" name="sites" value="techsparx.com">
+<input type="hidden" name="k7" value="#ffffff">
+<input type="hidden" name="k8" value="#222222">
+<input type="hidden" name="k9" value="#00278e">
+<input type="hidden" name="kx" value="#20692b">
+<input type="hidden" name="kj" value="#fafafa">
+<input type="hidden" name="kt" value="p">
+<input type="text" name="q" placeholder="Search TechSparx" aria-label="Search techsparx.com on DuckDuckGo">
+<button type="submit">Search</button>
+</form>
+</span>
+</div>
+</header>
+</div>
+<div class="row">
+<div class="col-md-10">
+<div class="row">
+<section id="breadcrumb" class="col-sm-12">
+<nav aria-label="breadcrumb" id="breadcrumbTrail">
+<ol class="breadcrumb">
+ <li class="breadcrumb-item "> <a href="index.html" munged="yes">Example Open Source Software Web Site</a> </li>
+</ol>
+</nav>
+</section>
+<section id="category-tags" class="col-sm-12">
+
+    Date: Tue Dec 17 2019
+
+
+</section>
+</div>
+<div class="row">
+<article class="col-sm-10">
+
+<p>Your open source project deserves to have a useful website.  The site should have natural places for documentation, sales pitches, recognizing the team members, encouraging new people to join the project, accessing builds of the project, and more.  But many of us leading open source projects have constrained budgets, or no budget, and end up with a constricted website.</p>
+<p>What you&apos;re looking at is an example of an open source website, built with free tools, that requires minimal resources to build and maintain the site, is very low cost to maintain, yet looks good and can have any structure you like.  This site even has an example electronic-book that can be published as PDF, or EPUB, or hosted online.</p>
+<p>Included in this demonstration website are several elements that would be useful for open source software teams:</p>
+<ul>
+<li>A &quot;brochure&quot; area giving a high level overview of the software product</li>
+<li>A &quot;blog&quot; that you can use to post project announcements and tutorials</li>
+<li>An &quot;e-Book&quot; area to hold your documentation</li>
+<li>The e-Book area can also be published as an EPUB file, for example to post for sale via various online book stores</li>
+</ul>
+<p>Your website is not limited by what is shown in this demonstration.  The demonstration is built on the foundation offered by AkashaCMS - a tool for building any kind of static HTML website - and AkashaEPUB - tool for building EPUB 3 documents.</p>
+<ul>
+<li>TODO <a href="akashacms-intro.html" munged="yes" title="Introduction to AkashaCMS">Introduction to AkashaCMS</a></li>
+<li>TODO <a href="akashaepub-intro.html" munged="yes" title="Introduction to AkashaCMS">Introduction to AkashaCMS</a></li>
+</ul>
+<p>Your content is stored as simple Markdown files in a file system, and not in an obscure database schema.  With AkashaCMS the content is rendered into HTML files, that can utilize any advanced HTML5, JavaScript or CSS3 technique you like.  Because they&apos;re simply HTML files, the rendered website can be deployed to any low-end inexpensive web hosting provider yet provide excellent page loading times.</p>
+<p>The design of AkashaEPUB allows e-Book content to be both published online, in a website, or as an EPUB.  Why should your project documentation be hosted by a 3rd party service?  It should be on your website, instead.</p>
+<h2>Green Transportation News</h2>
+<p><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml">
+<a rel="alternate" type="application/rss+xml" href="blog/rss.xml" munged="yes">
+<img src="img/rss_button.gif" align="middle" width="40px" title="News and Video postings">
+</a></p>
+<p><div class="blog-river list-group list-group-flush" role="group" aria-label="Project News">
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2019/10/first-release.html" munged="yes">
+<h3>First release of the Farblefritzer Pro</h3>
+</a>
+<span class="mb-1">
+Published Date: October 1, 2019
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2019/09/first-release.html" munged="yes">
+<h3>First release by October 1</h3>
+</a>
+<span class="mb-1">
+Published Date: September 15, 2019
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2019/09/feature-freeze.html" munged="yes">
+<h3>First release soon</h3>
+</a>
+<span class="mb-1">
+Published Date: September 5, 2019
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2019/08/features.html" munged="yes">
+<h3>Our latest feature list</h3>
+</a>
+<span class="mb-1">
+Published Date: August 5, 2019
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2019/07/one-year.html" munged="yes">
+<h3>Belated celebration of our 1 year anniversary</h3>
+</a>
+<span class="mb-1">
+Published Date: July 1, 2019
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2019/06/features.html" munged="yes">
+<h3>Grabbing ahold of the ever-elusive first release</h3>
+</a>
+<span class="mb-1">
+Published Date: June 3, 2019
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2019/05/features.html" munged="yes">
+<h3>Revised intended features for first release</h3>
+</a>
+<span class="mb-1">
+Published Date: May 3, 2019
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2019/04/features.html" munged="yes">
+<h3>Revised intended features for first release</h3>
+</a>
+<span class="mb-1">
+Published Date: April 3, 2019
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2019/02/features.html" munged="yes">
+<h3>Revised intended features for first release</h3>
+</a>
+<span class="mb-1">
+Published Date: February 3, 2019
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2019/01/features.html" munged="yes">
+<h3>Intended features for first release</h3>
+</a>
+<span class="mb-1">
+Published Date: January 10, 2019
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2018/december.html" munged="yes">
+<h3>The gift of the season is knowing we&apos;re on our way</h3>
+</a>
+<span class="mb-1">
+Published Date: December 1, 2018
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2018/november.html" munged="yes">
+<h3>The path is here somewhere, we&apos;re closer to finding our way</h3>
+</a>
+<span class="mb-1">
+Published Date: November 1, 2018
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2018/october.html" munged="yes">
+<h3>Thrown out plans, new ideas</h3>
+</a>
+<span class="mb-1">
+Published Date: October 1, 2018
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2018/making-progress.html" munged="yes">
+<h3>Making progress - Developing plans and progressing towards first release</h3>
+</a>
+<span class="mb-1">
+Published Date: July 1, 2018
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2018/first-post.html" munged="yes">
+<h3>First posting - getting this project ready</h3>
+</a>
+<span class="mb-1">
+Published Date: June 1, 2018
+</span>
+
+
+</div>
+
+<div class="blog-item list-group-item">
+<!-- add teaser thumbnail -->
+<a href="blog/2019/05/features2.html" munged="yes">
+<h3>First release just around the corner</h3>
+</a>
+<span class="mb-1">
+Published Date: May 15,
+</span>
+
+
+</div>
+
+</div></p>
+
+</article>
+<section id="right" class="col-sm-2">
+</section>
+</div>
+</div>
+<div class="col-md-2">
+
+</div>
+</div>
+<footer class="row" style="text-align: center; height: 100px;">
+
+</footer>
+</div>
+<script src="vendor/jquery/jquery.min.js"></script><script src="vendor/popper.js/umd/popper.min.js"></script><script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
