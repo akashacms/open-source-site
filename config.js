@@ -3,6 +3,9 @@ const akasha  = require('akasharender');
 
 const config = new akasha.Configuration();
 
+// TODO - Update this to akashacms.github.io/open-source-site
+// when that's ready
+
 // This URL is used as the base URL of the website.
 // Any time AkashaCMS code calculates the full URL of
 // a thing in the site, it will use this URL.
@@ -63,7 +66,7 @@ config
     })
     .use(require('@akashacms/plugins-breadcrumbs'))
     .use(require('@akashacms/plugins-booknav'))
-    .use(require('akashacms-external-links'))
+    .use(require('@akashacms/plugins-external-links'))
     .use(require('@akashacms/plugins-footnotes'))
     .use(require('@akashacms/plugins-tagged-content'), {
         sortBy: 'title',
@@ -72,7 +75,7 @@ config
         indexTemplate: "---\ntitle: Tags for AkashaCMS Example site\nlayout: tagpage.html.ejs\n---\n",
         pathIndexes: '/tags/'
     })
-    .use(require('akashacms-blog-podcast'), {
+    .use(require('@akashacms/plugins-blog-podcast'), {
         bloglist: {
             news: {
                 rss: {

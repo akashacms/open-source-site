@@ -1,11 +1,15 @@
 {
   "name": "open-source-site",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Open source project website with blog and documentation e-Book",
   "scripts": {
-    "prebuild": "akasharender copy-assets config.js",
-    "build": "akasharender render config.js",
-    "preview": "cd out && ws --log.format dev"
+    "build": "npm-run-all build:copy build:render",
+    "build:copy": "akasharender copy-assets config.js",
+    "build:render": "akasharender render config.js",
+    "watch": "npm-run-all --parallel watcher preview",
+    "watcher": "akasharender watch config.js",
+    "preview": "live-server out",
+    "gh-pages": "akasharender gh-pages-publish config.js"
   },
   "repository": {
     "type": "git",
@@ -18,20 +22,21 @@
   },
   "homepage": "https://github.com/akashacms/open-source-site#readme",
   "dependencies": {
-    "@akashacms/plugins-base": "^0.7.x",
-    "@akashacms/theme-bootstrap": "^0.7.x",
-    "@akashacms/plugins-tagged-content": "^0.7.x",
-    "akashacms-blog-podcast": "^0.7.x",
-    "@akashacms/plugins-booknav": "^0.7.x",
-    "@akashacms/plugins-breadcrumbs": "^0.7.x",
-    "akashacms-external-links": "^0.6.6",
-    "@akashacms/plugins-footnotes": "^0.7.x",
-    "akasharender": "^0.7.x",
+    "@akashacms/plugins-base": "^0.8.x",
+    "@akashacms/plugins-booknav": "^0.8.x",
+    "@akashacms/plugins-blog-podcast": "^0.8.x",
+    "@akashacms/plugins-breadcrumbs": "^0.8.x",
+    "@akashacms/plugins-footnotes": "^0.8.x",
+    "@akashacms/plugins-tagged-content": "^0.8.x",
+    "@akashacms/theme-bootstrap": "^0.8.x",
+    "@akashacms/plugins-external-links": "^0.8.x",
     "epub-website": "akashacms/epub-website",
-    "@fortawesome/fontawesome-free": "^5.7.2",
-    "local-web-server": "^3.0.7",
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.15.0"
+    "@compodoc/live-server": "^1.2.x",
+    "akasharender": "^0.8.x",
+    "bootstrap": "^4.6.x",
+    "jquery": "^3.6.x",
+    "npm-run-all": "^4.1.5",
+    "popper.js": "^1.16.x",
+    "@fortawesome/fontawesome-free": "^5.7.2"
   }
 }

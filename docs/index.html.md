@@ -3,7 +3,9 @@ layout: article.html.ejs
 title: Example Open Source Software Web Site
 ---
 
-This website is dedicated to open source software developers around the world.  It is an example of a way to build a website for your open source software project.
+Your open source project deserves to have a useful website.  The site should have natural places for documentation, sales pitches, recognizing the team members, encouraging new people to join the project, accessing builds of the project, and more.  But many of us leading open source projects have constrained budgets, or no budget, and end up with a constricted website.
+
+What you're looking at is an example of an open source website, built with free tools, that requires minimal resources to build and maintain the site, is very low cost to maintain, yet looks good and can have any structure you like.  This site even has an example electronic-book that can be published as PDF, or EPUB, or hosted online.
 
 Included in this demonstration website are several elements that would be useful for open source software teams:
 

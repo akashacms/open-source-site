@@ -5,7 +5,17 @@
         <h1 align="center"><%= title %></h1>
       </span>
       <span class="col-md-4">
-          Add search form from Google Site Search here
+        <form method="get" id="ddgSearch" action="https://duckduckgo.com/">
+            <input type="hidden" name="sites" value="techsparx.com"/>
+            <input type="hidden" name="k7" value="#ffffff"/>
+            <input type="hidden" name="k8" value="#222222"/>
+            <input type="hidden" name="k9" value="#00278e"/>
+            <input type="hidden" name="kx" value="#20692b"/>
+            <input type="hidden" name="kj" value="#fafafa"/>
+            <input type="hidden" name="kt" value="p"/>
+            <input type="text" name="q" placeholder="Search TechSparx" aria-label="Search techsparx.com on DuckDuckGo"/>
+            <button type="submit">Search</button>
+        </form>
       </span>
     </div>
   
